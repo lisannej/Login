@@ -20,7 +20,6 @@
 
                 <div class="col-lg-12 login-form">
                     <div class="col-lg-12 login-form">
-                        <form>
                         <form method = "POST" action = "login_query.php">
                             <div class="form-group">
                                 <input type="text" placeholder = "USERNAME/EMAIL" name = "username" class="form-control">
