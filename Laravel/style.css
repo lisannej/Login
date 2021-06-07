@@ -109,7 +109,7 @@ label {
 }
 
 .login-btm {
-    align-items: center;
+    align-content: center;
 }
 
 .login-button {
