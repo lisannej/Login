@@ -21,11 +21,12 @@
                 <div class="col-lg-12 login-form">
                     <div class="col-lg-12 login-form">
                         <form>
+                        <form method = "POST" action = "login_query.php">
                             <div class="form-group">
-                                <input type="text" placeholder = "USERNAME/EMAIL" class="form-control">
+                                <input type="text" placeholder = "USERNAME/EMAIL" name = "username" class="form-control">
                             </div>
                             <div class="form-group">
-                                <input type="password" placeholder = "PASSWORD"  class="form-control" i>
+                                <input type="password" placeholder = "PASSWORD" name = "password" class="form-control" i>
                             </div>
 
                             <div class="col-lg-12 loginbttm">
