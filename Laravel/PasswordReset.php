@@ -1,7 +1,6 @@
 <?php
 
-class PasswordReset
-{
+class PasswordReset{
 
     private $ds;
 
