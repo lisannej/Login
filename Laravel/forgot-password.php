@@ -20,7 +20,7 @@ if (! empty($_POST["forgot-btn"])) {
 			<div class="signup-align">
 				<form name="login" action="" method="post"
 					onsubmit="return loginValidation()">
-					<div class="signup-heading">Unustasid Salasõna</div>
+					<div class="signup-heading"><h3>Unustasid Salasõna<h3></div>
 <?php
 if (! empty($displayMessage["status"])) {
     if ($displayMessage["status"] == "error") {
@@ -37,7 +37,7 @@ if (! empty($displayMessage["status"])) {
 				<div class="row">
 						<div class="inline-block">
 							<div class="form-label">
-							<h3>Sisesta Email</h3><span class="required error" id="username-info"></span>
+							Sisesta Email<span class="required error" id="username-info"></span>
 							</div>
 							<input class="input-box-330" type="text" name="username"
 								id="username">
