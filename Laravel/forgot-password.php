@@ -37,7 +37,7 @@ if (! empty($displayMessage["status"])) {
 				<div class="row">
 						<div class="inline-block">
 							<div class="form-label">
-								Email<span class="required error" id="username-info"></span>
+							<span class="required error" placeholder = "Email" id="username-info"></span>
 							</div>
 							<input class="input-box-330" type="text" name="username"
 								id="username">

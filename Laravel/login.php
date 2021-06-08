@@ -28,7 +28,6 @@
                                 <input type="password" placeholder = "PASSWORD" name = "password" class="form-control" i>
                             </div>
                             <a href= "http://greeny.cs.tlu.ee/~lisajar/testid/Login/Laravel/forgot-password.php">Unustasid Salasõna?</a>
-
                             <div class="col-lg-12 loginbttm">
                                 <div class="col-lg-6 login-btm login-text">
                                     <!-- Error Message -->
