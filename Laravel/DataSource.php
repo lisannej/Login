@@ -16,6 +16,12 @@ require 'config.php';
  */
 class DataSource
 {
+    public $host = db_host;
+    public $user = db_user;
+    public $pass = db_pass;
+    public $dbname = db_name;
+    public $conn;
+    public $error;
     function __construct()
     {
         $this->conn = $this->connect();
