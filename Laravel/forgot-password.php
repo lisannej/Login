@@ -39,7 +39,7 @@ if (! empty($displayMessage["status"])) {
 							<div class="form-label">
 							Sisesta Email<span class="required error" id="username-info"></span>
 							</div>
-							<input class="input-box-530" type="text" name="username"
+							<input class="input-box-330" type="text" name="username"
 								id="username">
 						</div>
 					</div>
