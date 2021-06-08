@@ -18,6 +18,7 @@ body {
 body:before {
     content: '';
     position: relative;
+    align-items: center;
     top: 0;
     left: 0;
     height: 100%;
