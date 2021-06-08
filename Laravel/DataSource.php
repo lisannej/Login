@@ -51,16 +51,12 @@ class DataSource
      *
      * @return \mysqli
      */
-    public function getConnection()
-    {
-        $conn = new \mysqli(self::HOST, self::USERNAME, self::PASSWORD, self::DATABASENAME);
-
-        if (mysqli_connect_errno()) {
-            trigger_error("Problem with connecting to database.");
+    private function connect(){
+        $this->conn = new mysqli($this->host, $this->user, $this->pass, $this->dbname);
+        if(!$this->conn){
+            $this->error = "Fatal Error: Can't connect to database".$this->conn->connect_error;
+            return false;
         }
-
-        $conn->set_charset("utf8");
-        return $conn;
     }
 
     /**
