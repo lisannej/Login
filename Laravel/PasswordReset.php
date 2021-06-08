@@ -1,5 +1,4 @@
 <?php
-namespace Phppot;
 
 class PasswordReset
 {

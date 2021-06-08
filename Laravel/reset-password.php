@@ -1,6 +1,6 @@
 <?php
-use Phppot\PasswordReset;
-use Phppot\Member;
+require 'PasswordReset';
+require 'Member';
 
 require_once __DIR__ . 'PasswordReset.php';
 $passwordReset = new PasswordReset();

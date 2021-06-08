@@ -1,5 +1,5 @@
 <?php
-use Phppot\Member;
+require 'Member';
 
 if (! empty($_POST["forgot-btn"])) {
     require_once __DIR__ . '/Member.php';
