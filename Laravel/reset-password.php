@@ -23,7 +23,7 @@ if (empty($_GET["token"])) {
 }
 if (! empty($_POST["reset-btn"])) {
     $passwordReset->expireToken($token);
-    require_once __DIR__ . '/Model/Member.php';
+    require_once __DIR__ . '/Member.php';
     $member = new Member();
     $displayMessage = $member->updatePassword($memberRecord[0]['member_id'], $_POST["password"]);
 }
@@ -33,7 +33,7 @@ if (! empty($_POST["reset-btn"])) {
 <TITLE>Taasta Salasõna</TITLE>
 <link href="style.css" type="text/css"
 	rel="stylesheet" />
-<script src="vendor/jquery/jquery-3.3.1.js" type="text/javascript"></script>
+<script src="jquery/jquery-3.3.1.js" type="text/javascript"></script>
 </HEAD>
 <BODY>
 	<div class="phppot-container">

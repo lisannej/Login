@@ -12,7 +12,7 @@ if (! empty($_POST["forgot-btn"])) {
 <TITLE>Unustasid Salasõna</TITLE>
 <link href="style.css" type="text/css"
 	rel="stylesheet" />
-<script src="vendor/jquery/jquery-3.3.1.js" type="text/javascript"></script>
+<script src="jquery/jquery-3.3.1.js" type="text/javascript"></script>
 </HEAD>
 <BODY>
 	<div class="phppot-container">

@@ -6,11 +6,11 @@ class Member
 
     private $ds;
 
-    private $applicationUrl = 'http://localhost/forgot-password-reset/';
+    private $applicationUrl = 'http://greeny.cs.tlu.ee/~lisajar/testid/Login/Laravel/forgot-password.php';
 
     function __construct()
     {
-        require_once __DIR__ . '/../lib/DataSource.php';
+        require_once __DIR__ . 'DataSource.php';
         $this->ds = new DataSource();
     }
 
