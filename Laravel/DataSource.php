@@ -1,4 +1,5 @@
 <?php
+require 'config.php';
 /**
  * Copyright (C) Phppot
  *
@@ -6,7 +7,6 @@
  * In essense, you can do commercial use, modify, distribute and private use.
  * Though not mandatory, you are requested to attribute Phppot URL in your code or website.
  */
-namespace Phppot;
 
 /**
  * Generic datasource class for handling DB operations.
@@ -16,30 +16,6 @@ namespace Phppot;
  */
 class DataSource
 {
-
-    // PHP 7.1.0 visibility modifiers are allowed for class constants.
-    // when using above 7.1.0, declare the below constants as private
-    // for better encapsulation
-    const HOST = 'localhost';
-
-    const USERNAME = 'if20';
-
-    const PASSWORD = 'if20';
-
-    const DBNAME = 'forgot-password';
-
-    private $conn;
-
-    /**
-     * PHP implicitly takes care of cleanup for default connection types.
-     * So no need to worry about closing the connection.
-     *
-     * Singletons not required in PHP as there is no
-     * concept of shared memory.
-     * Every object lives only for a request.
-     *
-     * Keeping things simple and that works!
-     */
     function __construct()
     {
         $this->conn = $this->connect();
@@ -57,24 +33,6 @@ class DataSource
             $this->error = "Fatal Error: Can't connect to database".$this->conn->connect_error;
             return false;
         }
-    }
-
-    /**
-     * If you wish to use PDO use this function to get a connection instance
-     *
-     * @return \PDO
-     */
-    public function getPdoConnection()
-    {
-        $conn = FALSE;
-        try {
-            $dsn = 'mysql:host=' . self::HOST . ';dbname=' . self::DATABASENAME;
-            $conn = new \PDO($dsn, self::USERNAME, self::PASSWORD);
-            $conn->setAttribute(\PDO::ATTR_ERRMODE, \PDO::ERRMODE_EXCEPTION);
-        } catch (\Exception $e) {
-            exit("PDO Connect Error: " . $e->getMessage());
-        }
-        return $conn;
     }
 
     /**
