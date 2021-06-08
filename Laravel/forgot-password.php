@@ -2,7 +2,7 @@
 use Phppot\Member;
 
 if (! empty($_POST["forgot-btn"])) {
-    require_once __DIR__ . 'Member.php';
+    require_once __DIR__ . '/Member.php';
     $member = new Member();
     $displayMessage = $member->handleForgot();
 }
