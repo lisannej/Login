@@ -1,9 +1,9 @@
 body {
-    background: #cfcaad;
+    background: #ccbf9cf3;
     font-family: 'Roboto', sans-serif;
     text-align: center;
     font-size:large;
-    color: #A2A4A4;
+    color: #080808;
 }
 
 .login-box {
@@ -18,7 +18,7 @@ body {
     height: 100px;
     font-size: 80px;
     line-height: 100px;
-    background: -webkit-linear-gradient(#27EF9F, #0DB8DE);
+    background: -webkit-linear-gradient(#b3b2b1, #91908f);
     -webkit-background-clip: text;
     background-clip: inherit;
     -webkit-text-fill-color: transparent;
@@ -42,7 +42,7 @@ body {
 input[type=text] {
     background-color: #1a222659;
     border: none;
-    border-bottom: 2px solid #0DB8DE;
+    border-bottom: 2px solid #070f11;
     border-top: 0px;
     border-radius: 0px;
     font-weight: bold;
@@ -55,7 +55,7 @@ input[type=text] {
 input[type=password] {
     background-color: #1a222670;
     border: none;
-    border-bottom: 2px solid #0DB8DE;
+    border-bottom: 2px solid #06090a;
     border-top: 0px;
     border-radius: 0px;
     font-weight: bold;
@@ -74,7 +74,7 @@ input[type=password] {
     border-color: inherit;
     -webkit-box-shadow: none;
     box-shadow: none;
-    border-bottom: 2px solid #0DB8DE;
+    border-bottom: 2px solid #0c1011;
     outline: 0;
     background-color: #1A2226;
     color: #ECF0F5;
@@ -97,8 +97,8 @@ label {
 }
 
 .btn-outline-primary {
-    border-color: #0DB8DE;
-    color: #0DB8DE;
+    border-color: #f7f7f7;
+    color: #f4f7f8;
     border-radius: 0px;
     font-weight: bold;
     letter-spacing: 1px;
@@ -106,7 +106,7 @@ label {
 }
 
 .btn-outline-primary:hover {
-    background-color: #0DB8DE;
+    background-color: #7d8181;
     right: 0px;
 }
 
