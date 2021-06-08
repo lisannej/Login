@@ -42,7 +42,7 @@ class DataSource
      */
     function __construct()
     {
-        $this->conn = $this->getConnection();
+        $this->conn = $this->connect();
     }
 
     /**
