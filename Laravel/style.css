@@ -20,6 +20,7 @@ body {
     line-height: 100px;
     background: -webkit-linear-gradient(#27EF9F, #0DB8DE);
     -webkit-background-clip: text;
+    background-clip: inherit;
     -webkit-text-fill-color: transparent;
 }
 
