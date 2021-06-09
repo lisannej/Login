@@ -32,6 +32,8 @@
                                 <div class="col-lg-6 login-btm login-button">
                                     <button class="btn btn-success" name = "login" class="btn btn-outline-primary">LOGIN</button>
                                 </div>
+                                <br> 
+                                <p><a href="forgotpassword.php">Unustasid salaõna?</a> </p>
                             </div>
                         </form>
                     </div>
