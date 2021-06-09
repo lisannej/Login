@@ -18,7 +18,7 @@ if(isset($_SESSION["login_sess"]))
 		<div class="col-sm-4">
 		</div>
 		<div class="col-sm-4">
- 	<form action="forgot_process.php" method="POST">
+ 	<form action="forgot-process.php" method="POST">
     <div class="login_form">
   <div class="form-group">
  <?php if(isset($_GET['err'])){
