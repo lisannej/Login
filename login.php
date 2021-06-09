@@ -2,11 +2,10 @@
 <html lang = "en">
 	<head>
 		<meta charset = "UTF-8" name = "viewport" content = "width-device=width, initial-scale=1"/>
-		<title>Logi sisse</title>
+		<title>Log In</title>
 		<link rel = "stylesheet" type = "text/css" href = "style.css" />
 	</head>
 <body>
-
 <div class="container">
         <div class="row">
             <div class="col-lg-3 col-md-2"></div>
@@ -17,17 +16,15 @@
                 <div class="col-lg-12 login-title">
                     LOG IN
                 </div>
-
                 <div class="col-lg-12 login-form">
                     <div class="col-lg-12 login-form">
-                        <form>
+                        <form method = "POST" action = "login_query.php">
                             <div class="form-group">
-                                <input type="text" placeholder = "USERNAME/EMAIL" class="form-control">
+                                <input type="text" placeholder = "USERNAME/EMAIL" name = "username" class="form-control">
                             </div>
                             <div class="form-group">
-                                <input type="password" placeholder = "PASSWORD"  class="form-control" i>
+                                <input type="password" placeholder = "PASSWORD" name = "password" class="form-control" i>
                             </div>
-
                             <div class="col-lg-12 loginbttm">
                                 <div class="col-lg-6 login-btm login-text">
                                     <!-- Error Message -->
@@ -42,7 +39,5 @@
                 <div class="col-lg-3 col-md-2"></div>
             </div>
         </div>
-
-
 </body>
 </html>
