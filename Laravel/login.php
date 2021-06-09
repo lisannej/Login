@@ -7,6 +7,7 @@
 	</head>
 <body>
 
+<<<<<<< HEAD
 <form class='login-form'>
   <div class="flex-row">
     <label class="lf--label" for="username">
@@ -29,6 +30,44 @@
   <input class='lf--submit' type='submit' value='LOGIN'>
 </form>
 <a class='lf--forgot' href='http://greeny.cs.tlu.ee/~lisajar/testid/Login/Laravel/forgot-password.php'>Unustasid salasõna?</a>
+=======
+<div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-2"></div>
+            <div class="col-lg-6 col-md-8 login-box">
+                <div class="col-lg-12 login-key">
+                    <i class="fa fa-key" aria-hidden="true"></i>
+                </div>
+                <div class="col-lg-12 login-title">
+                    LOG IN
+                </div>
+
+                <div class="col-lg-12 login-form">
+                    <div class="col-lg-12 login-form">
+                        <form>
+                            <div class="form-group">
+                                <input type="text" placeholder = "USERNAME/EMAIL" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <input type="password" placeholder = "PASSWORD"  class="form-control" i>
+                            </div>
+
+                            <div class="col-lg-12 loginbttm">
+                                <div class="col-lg-6 login-btm login-text">
+                                    <!-- Error Message -->
+                                </div>
+                                <div class="col-lg-6 login-btm login-button">
+                                    <button class="btn btn-success" name = "login" class="btn btn-outline-primary">LOGIN</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-2"></div>
+            </div>
+        </div>
+
+>>>>>>> parent of 13d267f... Update login.php
 
 </body>
 </html>
